@@ -8,16 +8,13 @@ body {
 
   background-color: #eae2b7;
 }
-nav li {
-  display: inline;
-}
 
 /* Set the font family for any h1, h2, or h3 heading */
 h1, 
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
-text-align: center;}
+}
 
 article {
   padding: 50px 0;
@@ -51,4 +48,27 @@ hr {
 /* Add your solution below */
 
 .image-circle {
+  border: 2px solid #003049;
+border-radius: 100px;
+}
+header{
+  text-align: center;
+}
+nav li {
+  display: inline; 
+  padding-right: 20px;
+}
+a {
+  color: #d62828;
+}
+a:hover {
+  color: #f77f00;
+}
+h1, 
+h2,
+h3 {
+text-align: center;
+}
+footer{
+  text-align: center;
 }
